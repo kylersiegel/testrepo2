@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Addition App</title></head>
+<body>
+    <h1>Simple Addition</h1>
+    <form method="post">
+        <input name="a" placeholder="Enter first number">
+        <input name="b" placeholder="Enter second number">
+        <button type="submit">Add</button>
+    </form>
+    {% if result is not none %}
+        <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
